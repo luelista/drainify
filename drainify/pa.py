@@ -36,7 +36,7 @@ def move_sink_input(sink_input_id):
     subprocess.call(['pactl',
                      'move-sink-input',
                      str(sink_input_id),
-                     'combined'
+                     'SpotifyGrabberSink'
                     ])
 
 
